@@ -34,6 +34,7 @@ namespace events.tac.local.Controllers
                 DifficultyLevel = new HtmlString(FieldRenderer.Render(item,
             "DifficultyLevel"))
             };
-        }
+        }
+
     }
 }
