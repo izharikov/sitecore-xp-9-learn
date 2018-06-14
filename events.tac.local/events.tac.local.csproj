@@ -266,6 +266,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Web.config" />
     <Content Include="Views\TAC\Events\Layouts\Events.cshtml" />
+    <Content Include="Views\EventIntro\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -273,9 +274,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\EventIntro\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
