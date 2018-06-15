@@ -94,7 +94,7 @@ namespace events.tac.local.Tests
         private void DoesNotTraverseNonAncestors()
         {
             IItem climbing = _sitecore.content.home.events.climbing.Item;
-            Assert.Null(_sut.Children.First(m => m.Title == climbing.DisplayName).Children);
+            Assert.Empty(_sut.Children.First(m => m.Title == climbing.DisplayName).Children);
         }
 
     }

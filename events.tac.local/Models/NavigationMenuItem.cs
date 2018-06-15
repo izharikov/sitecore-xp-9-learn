@@ -10,7 +10,7 @@ namespace events.tac.local.Models
         public NavigationMenuItem(string title, string url, IEnumerable<NavigationMenuItem> children = null)
             : base(title, url, false)
         {
-            Children = children;// ?? new List<NavigationMenuItem>();
+            Children = children ?? new List<NavigationMenuItem>();
         }
 
         public IEnumerable<NavigationMenuItem> Children { get; set; }
